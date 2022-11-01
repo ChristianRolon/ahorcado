@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+ }
+ 
+ .fondo {
+    width: 100%;
+    height: 100vh;
+    background-image: url("forrest terror.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+ }
+
+
+
+#h1 { /* Título principal*/
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+    width: 800px; 
+    height: 500px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    font-size: 30px;
+}
+
+#subtitulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    width: 800px; 
+    height: 360px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+
+
+
+#ahorcado { /* Plantilla del Ahorcado*/
+    background-image: url('Ahorcado.png');
+    height: 144px;
+    width: 121px;
+    position: absolute;
+    inset: 0;
+    text-align: center;
+    margin: auto;
+    border-radius: 100px;
+    line-height: 50px;
+
+}
+
+.contenedor {
+   /*background-color: blue;*/
+   width: 700px; 
+   height: 350px;
+   position: absolute;
+   inset: 0;
+   text-align: center;
+   margin: auto;
+   border-radius: 100px;
+   line-height: 50px;
+}
+
+.posicion-ahorcado { /* Guiones*/
+    width: 650px; 
+    height: 250px;
+    position: absolute;
+    inset: 0;
+    text-align: center;
+    margin: auto;
+    border-radius: 100px;
+    line-height: 50px;
+    color: white;
+    
+}
+
+
+#ganador { /* Mensaje de Victoria*/
+    display: none;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url('halloween-gettyimages-172988453.jpg');
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
